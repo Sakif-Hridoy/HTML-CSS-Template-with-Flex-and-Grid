@@ -2,7 +2,19 @@
 
 body{
     font-family: 'Poppins', sans-serif;
+    background: #E5E5E5;
 }
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background: #FFFFFF;
+    width: 870px;
+}
+
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
